@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #F2EBC9;
+    color: #063D71;
+}
+
+/* NAVIGATION */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #6F2008;
+    padding: 15px 60px;
+}
+
+.nav-logo {
+    height: 60px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: #F2EBC9;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* HERO TITLE */
+.hero-title {
+    text-align: center;
+    padding: 90px 20px 50px;
+}
+
+.hero-title h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero-title h3 {
+    font-size: 20px;
+    color: #6F2008;
+}
+
+/* CAROUSEL */
+.carousel-section {
+    width: 100%;
+}
+
+.slider img {
+    width: 100%;
+    height: 45vh;
+    object-fit: cover;
+    display: none;
+}
+
+/* INTRO TEXT */
+.intro-text {
+    max-width: 900px;
+    margin: 50px auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* IMPACT SECTION */
+.impact-section {
+    background: #063D71;
+    color: #F2EBC9;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.impact-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.impact-card {
+    background: #6F2008;
+    padding: 25px 40px;
+    border-radius: 12px;
+    min-width: 180px;
+}
+
+/* DONATE SECTION */
+.center-section {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.btn, .subscribe-btn {
+    background: #6F2008;
+    color: #F2EBC9;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* FOOTER */
+footer {
+    background: #6F2008;
+    color: #F2EBC9;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+}
